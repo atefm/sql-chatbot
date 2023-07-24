@@ -1,6 +1,6 @@
 # SQL Chatbot with FastAPI and OpenAI
 
-This project contains a SQL chatbot that uses OpenAI's to generate SQL queries based on user prompts and execute them on a PostgreSQL database. 
+This project contains a SQL chatbot that uses OpenAI to generate SQL queries based on user prompts and execute them on a PostgreSQL database. 
 It allows users to interact with the chatbot through a FastAPI web interface, where they can input questions related to the database.
 
 ## Design and Development Decisions
@@ -67,4 +67,4 @@ The unit tests cover various scenarios and edge cases to validate the chatbot's 
 1. The execution of the query has been intentionally left out as there are quite a few checks need to be performed before the query can be executed on the actual DB.
 2. Better input/output handling.
 3. Handling of maximum tokens limitation with OpenAI especially when dealing with multiple tables.
-4. Ensure deterministic output with smaller with multiple but smaller prompts and validation thereof.
+4. Ensure deterministic output with multiple but smaller prompts and validation thereof.
