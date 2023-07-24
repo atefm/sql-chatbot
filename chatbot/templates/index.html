@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Home - SQL Chatbot{% endblock %}
+
+{% block heading %}SQL Chatbot Project{% endblock %}
+
+{% block content %}
+<div>
+    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+    <button onclick="generateSQL()">Generate SQL</button>
+    <div id="sql-output"></div>
+</div>
+{% endblock %}
